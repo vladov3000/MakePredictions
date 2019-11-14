@@ -1,0 +1,73 @@
+.tabs {
+	margin: auto;
+}
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+.add-predictions {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 5%;
+	padding: 1%;
+	border: solid #ccc;
+	border-width: 1px 1px 1px 1px;
+}
+
+.past-predictions {
+	margin: auto;
+	width: 50%;
+	padding: 1%;
+	border: solid #ccc;
+	border-width: 1px 1px 1px 1px;
+}
+
+body {
+  color: #222;
+  background: #f4f4f4;
+  font: 400 14px CoreSans, Arial, sans-serif;
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid #dddddd;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  background: transparent;
+  cursor: pointer;
+}
